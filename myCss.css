@@ -1,2 +1,23 @@
 /*Establish a flexbox for the container of elements for calculator
 Also, establish the buttons and function values storage*/
+
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.myButton-1{ /*General*/
+    text-align:center;
+    background-color:color #c0c0c0;
+    text-decoration-color:black;
+}
+
+.myButton-2{ /*operations */
+    background-color:color #808080;
+}
+
+.myButton-3{ /*Equal sign only*/
+    background-color:blue;
+}
